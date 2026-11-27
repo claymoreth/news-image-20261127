@@ -511,7 +511,7 @@ TABS = ["N. AMERICA 5", "EUROPE 5", "MID EAST 5", "SE ASIA 5",
         "E & S ASIA 5", "AFRICA 5", "S. AMERICA & OCEANIA 5"]
 
 HEROES = [
-    dict(num=21, bar="EAST COAST, USA - STORM", region=0, pill="REPORTED",
+    dict(num=1, bar="EAST COAST, USA - STORM", region=0, pill="REPORTED",
          stat1="400,000+ WITHOUT POWER", stat2="MACY'S PARADE DELAYED",
          source="Reuters \u00b7 AP \u00b7 AFP",
          head="Storm knocks out power for 400,000 and delays Macy's parade",
@@ -520,7 +520,7 @@ HEROES = [
                "flights and delaying the 100th Macy's Thanksgiving Day "
                "Parade for the first time ever."),
          thumb=thumb_storm),
-    dict(num=11, bar="KUWAIT - DRONE STRIKE", region=2, pill="REPORTED",
+    dict(num=2, bar="KUWAIT - DRONE STRIKE", region=2, pill="REPORTED",
          stat1="2 KILLED", stat2="GULF TENSIONS RISE",
          source="Reuters \u00b7 AP \u00b7 AFP",
          head="Drone strike in Kuwait kills two as Gulf tensions rise",
@@ -528,7 +528,7 @@ HEROES = [
                "foreign minister calls the incident suspicious and offers "
                "help with the investigation."),
          thumb=thumb_kuwait),
-    dict(num=16, bar="BRUSSELS - EU BUDGET", region=1, pill="OFFICIAL",
+    dict(num=3, bar="BRUSSELS - EU BUDGET", region=1, pill="OFFICIAL",
          stat1="\u20ac1.78 TRILLION", stat2="NO DEAL",
          source="Reuters \u00b7 AP \u00b7 AFP",
          head="EU leaders deadlock over \u20ac1.78 trillion seven-year budget",
@@ -539,65 +539,65 @@ HEROES = [
 ]
 
 CARDS = [
-    dict(num=1, bar="WASHINGTON - US TARIFFS", region=3, pill="REPORTED",
+    dict(num=4, bar="WASHINGTON - US TARIFFS", region=3, pill="REPORTED",
          stat="18% MAX", source="Reuters \u00b7 AP \u00b7 AFP",
          head="US proposes tariffs up to 18% on Indonesian goods",
          deck=("The Trump administration proposes new import tariffs on 14 "
                "major trading partners, with Indonesian products facing "
                "up to 18 percent."),
          thumb=thumb_port),
-    dict(num=6, bar="TOKYO - NIKKEI", region=4, pill="OFFICIAL",
+    dict(num=5, bar="TOKYO - NIKKEI", region=4, pill="OFFICIAL",
          stat="57,499 +0.86%", source="Reuters \u00b7 AP \u00b7 AFP",
          head="Nikkei climbs 0.86% to 57,499 ahead of inflation data",
          deck=("Japan's Nikkei 225 rises ahead of the release of core "
                "inflation data and China's industrial profit figures."),
          thumb=thumb_nikkei),
-    dict(num=23, bar="GLOBAL MARKETS - OIL & GOLD", region=0,
+    dict(num=6, bar="GLOBAL MARKETS - OIL & GOLD", region=0,
          pill="OFFICIAL", stat="$94.83 / $3,598",
          source="Reuters \u00b7 AP \u00b7 AFP",
          head="Brent crude climbs to $94.83 as gold hits $3,598",
          deck=("Brent crude rises on Middle East tensions while gold "
                "strengthens to US$3,598 an ounce."),
          thumb=thumb_oil_gold),
-    dict(num=30, bar="SAN JUAN - MISS UNIVERSE", region=6, pill="OFFICIAL",
+    dict(num=7, bar="SAN JUAN - MISS UNIVERSE", region=6, pill="OFFICIAL",
          stat="MISS UNIVERSE", source="Reuters \u00b7 AP \u00b7 AFP",
          head="Jennifer Barreto wins Miss Universe 2026",
          deck=("Jennifer Barreto of Puerto Rico is crowned Miss Universe "
                "2026, the first mother and wife to win the pageant."),
          thumb=thumb_crown_stage),
-    dict(num=3, bar="SOUTHEAST ASIA - NVIDIA", region=3, pill="REPORTED",
+    dict(num=8, bar="SOUTHEAST ASIA - NVIDIA", region=3, pill="REPORTED",
          stat="SHIPPING HALT", source="Reuters \u00b7 AP \u00b7 AFP",
          head="Nvidia halts AI server shipments to Southeast Asia",
          deck=("Nvidia stops shipping AI servers to several Southeast "
                "Asian countries including Indonesia, sending regional "
                "telecom shares sharply lower."),
          thumb=thumb_server),
-    dict(num=26, bar="BUENOS AIRES - ARGENTINA", region=6, pill="OFFICIAL",
+    dict(num=9, bar="BUENOS AIRES - ARGENTINA", region=6, pill="OFFICIAL",
          stat="PRINTING BANNED", source="Reuters \u00b7 AP \u00b7 AFP",
          head="Argentina bans central bank from printing money",
          deck=("Argentina's government bans the central bank from printing "
                "money to finance the budget deficit."),
          thumb=thumb_bank),
-    dict(num=33, bar="CAIRO - FIRE", region=5, pill="REPORTED",
+    dict(num=10, bar="CAIRO - FIRE", region=5, pill="REPORTED",
          stat="31 KILLED", source="Reuters \u00b7 AP \u00b7 AFP",
          head="Cairo fuel tanker fire kills 31, driver detained",
          deck=("Egyptian police detain a fuel tanker driver after a deadly "
                "fire in Cairo kills 31 people."),
          thumb=thumb_tanker_fire),
-    dict(num=31, bar="NAIROBI - HOUSING", region=5, pill="OFFICIAL",
+    dict(num=11, bar="NAIROBI - HOUSING", region=5, pill="OFFICIAL",
          stat="UN SUMMIT", source="Reuters \u00b7 AP \u00b7 AFP",
          head="UN global housing conference opens in Nairobi",
          deck=("Government officials and housing experts gather at the UN "
                "headquarters in Nairobi to tackle the global housing "
                "crisis."),
          thumb=thumb_un),
-    dict(num=17, bar="LONDON - MIGRATION", region=1, pill="OFFICIAL",
+    dict(num=12, bar="LONDON - MIGRATION", region=1, pill="OFFICIAL",
          stat="77,000", source="Reuters \u00b7 AP \u00b7 AFP",
          head="UK net migration falls to 77,000, lowest since 1997",
          deck=("Net migration to Britain falls to 77,000, its lowest level "
                "since 1997 outside the pandemic years."),
          thumb=thumb_london),
-    dict(num=8, bar="CHINA SPACE STATION - POETRY", region=4,
+    dict(num=13, bar="CHINA SPACE STATION - POETRY", region=4,
          pill="REPORTED", stat="IQBAL IN ORBIT",
          source="Reuters \u00b7 AP \u00b7 AFP",
          head="Pakistan's first astronaut reads Iqbal poem in space",
@@ -608,38 +608,38 @@ CARDS = [
 
 # (story num, lon, lat, dx, dy) — pins for the 13 featured stories.
 # Offsets separate the tight US east-coast / Europe clusters.
-PINS = [(21, -74.0, 40.7, 12, -12), (11, 47.5, 29.4, 0, 0),
-        (16, 4.35, 50.85, -14, -12), (1, -77.0, 38.9, -14, 12),
-        (6, 139.7, 35.7, 0, 0), (23, 2.0, 57.0, 12, -12),
-        (30, -66.1, 18.5, 8, 12), (3, 106.8, -6.2, 0, 12),
-        (26, -58.4, -34.6, 0, 0), (33, 31.2, 30.0, 0, 0),
-        (31, 36.8, -1.3, 0, 0), (17, -0.1, 51.5, 10, 12),
-        (8, 98.5, 39.8, 0, -10)]
+PINS = [(1, -74.0, 40.7, 12, -12), (2, 47.5, 29.4, 0, 0),
+        (3, 4.35, 50.85, -14, -12), (4, -77.0, 38.9, -14, 12),
+        (5, 139.7, 35.7, 0, 0), (6, 2.0, 57.0, 12, -12),
+        (7, -66.1, 18.5, 8, 12), (8, 106.8, -6.2, 0, 12),
+        (9, -58.4, -34.6, 0, 0), (10, 31.2, 30.0, 0, 0),
+        (11, 36.8, -1.3, 0, 0), (12, -0.1, 51.5, 10, 12),
+        (13, 98.5, 39.8, 0, -10)]
 
 # (display num 1-35, "Lead: rest", region index, wire source).
-# Two lines each, two columns (num <= 18 left, num >= 19 right),
+# Two lines each, two columns (nums 14-24 left, nums 25-35 right),
 # 11 briefs per column, spread evenly y685..y923. No CLAIM tags.
 BRIEFS = [
-    (2, "Jakarta: President Prabowo to address Bank Indonesia annual meeting on global market turmoil", 3, "Reuters"),
-    (4, "Jakarta: over 15,100 Indonesians caught in online scams in 2026, 97.7% in Southeast Asia", 3, "AP"),
-    (5, "Jakarta: parliament agrees first draft of Strategic Commodities Bill on downstreaming", 3, "AFP"),
-    (7, "Pyongyang: Kim Jong Un vows wider diplomacy after declining Trump's meeting offer", 4, "Reuters"),
-    (9, "Asia: Nvidia falls 3.9% as AI spending fears weigh on tech shares", 4, "AP"),
-    (10, "Beijing: markets await China's October industrial profit data today", 4, "AFP"),
-    (12, "Riyadh: Houthis strike financial district tower and Jazan refinery, one killed", 2, "Reuters"),
-    (13, "Tehran: US blockade and subsidy cuts squeeze Iranians as fuel and food prices bite", 2, "AP"),
-    (14, "Gaza: winter rain displaces Palestinians again as meningitis cases surge", 2, "AFP"),
-    (15, "Dubai: Indonesian facility services firms join Big 5 Global to expand Gulf exports", 2, "Reuters"),
-    (18, "Kyiv: Ukraine tells Libya Russian ships hit off Benghazi were military targets only", 1, "AP"),
-    (19, "Ibiza: Spain races to contain fuel spill after ship capsizes off the island", 1, "AFP"),
-    (20, "Europe: NBA commits \u20ac10 billion to new arenas ahead of NBA Europe launch in 2027", 1, "Reuters"),
-    (22, "Florida: Trump uses Thanksgiving post to attack rivals and accuse agencies of faking data", 0, "AP"),
-    (24, "San Francisco: king tide floods coastal areas as extreme tides hit California", 0, "Reuters"),
-    (25, "Ottawa: Canada's top court tests Quebec ban on religious symbols for public workers", 0, "AFP"),
-    (27, "Latin America: Brazil mid-month inflation 4.62% as Mexico jobless rate holds at 2.8%", 6, "Reuters"),
-    (28, "Bogota: teenager's death in security operation fuels debate on Colombia crackdown", 6, "AP"),
-    (29, "Mexico: magnitude 5.7 quake strikes off Revillagigedo Islands at 10 km depth", 6, "AFP"),
-    (32, "Bamako: Barrick CEO meets Mali PM for first time since gold mine tax dispute settled", 5, "Reuters"),
+    (14, "Jakarta: President Prabowo to address Bank Indonesia annual meeting on global market turmoil", 3, "Reuters"),
+    (15, "Jakarta: over 15,100 Indonesians caught in online scams in 2026, 97.7% in Southeast Asia", 3, "AP"),
+    (16, "Jakarta: parliament agrees first draft of Strategic Commodities Bill on downstreaming", 3, "AFP"),
+    (17, "Pyongyang: Kim Jong Un vows wider diplomacy after declining Trump's meeting offer", 4, "Reuters"),
+    (18, "Asia: Nvidia falls 3.9% as AI spending fears weigh on tech shares", 4, "AP"),
+    (19, "Beijing: markets await China's October industrial profit data today", 4, "AFP"),
+    (20, "Riyadh: Houthis strike financial district tower and Jazan refinery, one killed", 2, "Reuters"),
+    (21, "Tehran: US blockade and subsidy cuts squeeze Iranians as fuel and food prices bite", 2, "AP"),
+    (22, "Gaza: winter rain displaces Palestinians again as meningitis cases surge", 2, "AFP"),
+    (23, "Dubai: Indonesian facility services firms join Big 5 Global to expand Gulf exports", 2, "Reuters"),
+    (24, "Kyiv: Ukraine tells Libya Russian ships hit off Benghazi were military targets only", 1, "AP"),
+    (25, "Ibiza: Spain races to contain fuel spill after ship capsizes off the island", 1, "AFP"),
+    (26, "Europe: NBA commits \u20ac10 billion to new arenas ahead of NBA Europe launch in 2027", 1, "Reuters"),
+    (27, "Florida: Trump uses Thanksgiving post to attack rivals and accuse agencies of faking data", 0, "AP"),
+    (28, "San Francisco: king tide floods coastal areas as extreme tides hit California", 0, "Reuters"),
+    (29, "Ottawa: Canada's top court tests Quebec ban on religious symbols for public workers", 0, "AFP"),
+    (30, "Latin America: Brazil mid-month inflation 4.62% as Mexico jobless rate holds at 2.8%", 6, "Reuters"),
+    (31, "Bogota: teenager's death in security operation fuels debate on Colombia crackdown", 6, "AP"),
+    (32, "Mexico: magnitude 5.7 quake strikes off Revillagigedo Islands at 10 km depth", 6, "AFP"),
+    (33, "Bamako: Barrick CEO meets Mali PM for first time since gold mine tax dispute settled", 5, "Reuters"),
     (34, "Wellington: New Zealand counts final 400,000 special votes to decide parliament", 5, "AP"),
     (35, "Sydney: safety probe after Qantas and Air New Zealand incident at airport", 5, "AFP"),
 ]
@@ -944,8 +944,9 @@ def build():
     if ly + 11 > 920:
         problems.append(f"legend overflows: ly={ly}")
 
-    # briefs: TWO columns, 2 lines each — col 1: briefs num <= 18
-    # (x 340..665), col 2: briefs num >= 19 (x 675..1010). Every brief
+    # briefs: TWO columns, 2 lines each — col 1: briefs 14-24, the
+    # first 11 in list order (x 340..665), col 2: briefs 25-35, the
+    # remaining 11 (x 675..1010). Every brief
     # is EXACTLY 2 lines: line 1: coloured chip with the display
     # number, bold lead (place before the colon) + start of the rest;
     # line 2: rest continued with a hanging indent (aligned with line
@@ -963,8 +964,8 @@ def build():
     BRIEF_LEAD = 8.5
     BRIEF_H = 2 * BRIEF_LEAD  # 17 px per brief
     BRIEF_END = 923
-    BRIEF_COLS = [(340, 665, [b for b in BRIEFS if b[0] <= 18]),
-                  (675, 1010, [b for b in BRIEFS if b[0] >= 19])]
+    BRIEF_COLS = [(340, 665, BRIEFS[:11]),
+                  (675, 1010, BRIEFS[11:])]
 
     brief_bottom = BRIEF_Y0
     for x, col_right, col_briefs in BRIEF_COLS:
